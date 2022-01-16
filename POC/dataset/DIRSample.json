@@ -19,39 +19,51 @@
 		},
 		"schema": [
 			{
+				"name": "Project Name",
 				"type": "String"
 			},
 			{
+				"name": "PO Number",
 				"type": "String"
 			},
 			{
+				"name": "Supplier Name",
 				"type": "String"
 			},
 			{
+				"name": "Part Num & Rev",
 				"type": "String"
 			},
 			{
+				"name": "Part Description",
 				"type": "String"
 			},
 			{
+				"name": "Allocation Week",
 				"type": "String"
 			},
 			{
+				"name": "Allocation Quantity",
 				"type": "String"
 			},
 			{
+				"name": "Shipping Quantity",
 				"type": "String"
 			},
 			{
+				"name": "Supplier Location",
 				"type": "String"
 			},
 			{
+				"name": "Inspector Name",
 				"type": "String"
 			},
 			{
+				"name": "Inspection Date",
 				"type": "String"
 			},
 			{
+				"name": "Sample Quantity",
 				"type": "String"
 			}
 		]
