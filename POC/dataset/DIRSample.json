@@ -14,7 +14,8 @@
 				"fileName": "DIR_Sample1.xlsx",
 				"folderPath": "MDCC",
 				"fileSystem": "supplies"
-			}
+			},
+			"firstRowAsHeader": true
 		},
 		"schema": [
 			{
