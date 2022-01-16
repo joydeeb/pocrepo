@@ -1,0 +1,33 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "poc-adb-df1"
+		},
+		"AzureBatch1_accessKey": {
+			"value": ""
+		},
+		"AzureDataLakeS1_accountKey": {
+			"value": ""
+		},
+		"LS1_connectionString": {
+			"value": ""
+		},
+		"mdccmysql_connectionString": {
+			"value": ""
+		},
+		"AzureBatch1_properties_typeProperties_batchUri": {
+			"value": "https://batchpoc1.eastus2.batch.azure.com"
+		},
+		"AzureBatch1_properties_typeProperties_poolName": {
+			"value": "bp100"
+		},
+		"AzureBatch1_properties_typeProperties_accountName": {
+			"value": "batchpoc1"
+		},
+		"AzureDataLakeS1_properties_typeProperties_url": {
+			"value": "https://box2pbi.dfs.core.windows.net"
+		}
+	}
+}
