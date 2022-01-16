@@ -1,0 +1,88 @@
+{
+	"name": "mdccmysqltgt",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "mdccmysql",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureMySqlTable",
+		"schema": [
+			{
+				"name": "ProjectName",
+				"type": "varchar",
+				"precision": 0,
+				"scale": 0
+			},
+			{
+				"name": "PONumber",
+				"type": "varchar",
+				"precision": 0,
+				"scale": 0
+			},
+			{
+				"name": "SupplierName",
+				"type": "varchar",
+				"precision": 0,
+				"scale": 0
+			},
+			{
+				"name": "PartNumRev",
+				"type": "varchar",
+				"precision": 0,
+				"scale": 0
+			},
+			{
+				"name": "PartDescription",
+				"type": "varchar",
+				"precision": 0,
+				"scale": 0
+			},
+			{
+				"name": "AllocationWeek",
+				"type": "int",
+				"precision": 0,
+				"scale": 0
+			},
+			{
+				"name": "AllocationQuantity",
+				"type": "int",
+				"precision": 0,
+				"scale": 0
+			},
+			{
+				"name": "ShippingQuantity",
+				"type": "int",
+				"precision": 0,
+				"scale": 0
+			},
+			{
+				"name": "SupplierLocation",
+				"type": "varchar",
+				"precision": 0,
+				"scale": 0
+			},
+			{
+				"name": "InspectorName",
+				"type": "varchar",
+				"precision": 0,
+				"scale": 0
+			},
+			{
+				"name": "InspectionDate",
+				"type": "date",
+				"precision": 0,
+				"scale": 0
+			},
+			{
+				"name": "SampleQuantity",
+				"type": "int",
+				"precision": 0,
+				"scale": 0
+			}
+		],
+		"typeProperties": {
+			"tableName": "diminsrep"
+		}
+	}
+}
