@@ -29,8 +29,155 @@
 						"writeBatchTimeout": "00:00:30"
 					},
 					"enableStaging": false,
+					"enableSkipIncompatibleRow": true,
 					"translator": {
 						"type": "TabularTranslator",
+						"mappings": [
+							{
+								"source": {
+									"name": "Project Name",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "ProjectName",
+									"type": "String",
+									"physicalType": "varchar"
+								}
+							},
+							{
+								"source": {
+									"name": "PO Number",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "PONumber",
+									"type": "String",
+									"physicalType": "varchar"
+								}
+							},
+							{
+								"source": {
+									"name": "Supplier Name",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "SupplierName",
+									"type": "String",
+									"physicalType": "varchar"
+								}
+							},
+							{
+								"source": {
+									"name": "Part Num & Rev",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "PartNumRev",
+									"type": "String",
+									"physicalType": "varchar"
+								}
+							},
+							{
+								"source": {
+									"name": "Part Description",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "PartDescription",
+									"type": "String",
+									"physicalType": "varchar"
+								}
+							},
+							{
+								"source": {
+									"name": "Allocation Week",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "AllocationWeek",
+									"type": "Int32",
+									"physicalType": "int"
+								}
+							},
+							{
+								"source": {
+									"name": "Allocation Quantity",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "AllocationQuantity",
+									"type": "Int32",
+									"physicalType": "int"
+								}
+							},
+							{
+								"source": {
+									"name": "Shipping Quantity",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "ShippingQuantity",
+									"type": "Int32",
+									"physicalType": "int"
+								}
+							},
+							{
+								"source": {
+									"name": "Supplier Location",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "SupplierLocation",
+									"type": "String",
+									"physicalType": "varchar"
+								}
+							},
+							{
+								"source": {
+									"name": "Inspector Name",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "InspectorName",
+									"type": "String",
+									"physicalType": "varchar"
+								}
+							},
+							{
+								"source": {
+									"name": "Inspection Date",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "InspectionDate",
+									"type": "DateTime",
+									"physicalType": "date"
+								}
+							},
+							{
+								"source": {
+									"name": "Sample Quantity",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "SampleQuantity",
+									"type": "Int32",
+									"physicalType": "int"
+								}
+							}
+						],
 						"typeConversion": true,
 						"typeConversionSettings": {
 							"allowDataTruncation": true,
