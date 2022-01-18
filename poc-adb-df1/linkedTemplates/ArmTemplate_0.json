@@ -127,7 +127,10 @@
 					"sheetName": "Sheet1",
 					"location": {
 						"type": "AzureBlobFSLocation",
-						"fileName": "DIR_Sample1.xlsx",
+						"fileName": {
+							"value": "@concat('DIR_Sample_', formatDateTime(utcNow(), 'yyyyMMdd'), '.xlsx')",
+							"type": "Expression"
+						},
 						"folderPath": "MDCC",
 						"fileSystem": "supplies"
 					},
