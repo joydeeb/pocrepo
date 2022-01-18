@@ -8,11 +8,10 @@
 		"annotations": [],
 		"type": "Excel",
 		"typeProperties": {
-			"sheetName": "sheet1",
 			"location": {
 				"type": "AzureBlobFSLocation",
 				"fileName": {
-					"value": "@concat('DIR_Sample_', formatDateTime(utcNow(), 'YYYYMMDD'))",
+					"value": "@concat('DIR_Sample_', formatDateTime(utcNow(), 'yyyyMMdd'), '.xlsx')",
 					"type": "Expression"
 				},
 				"folderPath": "MDCC",
